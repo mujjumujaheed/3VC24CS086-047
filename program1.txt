@@ -1,0 +1,168 @@
+
+Admin@DESKTOP-HGNLPEA MINGW64 ~ (master)
+$ cd D:
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d
+$ nkdir Mujju
+bash: nkdir: command not found
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d
+$
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d
+$ cd D:
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d
+$ mkdir Mujju
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/                           'MS Office 2007'/              TableauPublicDesktop-64bit-2024-2-2.exe*   mongosh-2.2.5-win32-x64.zip
+ 3vc22cd018/                               Mujju/                       'Turbo C++ 4.0.exe'*                        node-v20.10.0-x64.msi
+ 3vc24cs039/                               OracleXEUniv_v10_2_0_1.exe*   VSCodeSetup-x64-1.85.0.exe*                ubuntu-24.04.2-desktop-amd64.iso
+ Anaconda3-2024.10-1-Windows-x86_64.exe*   PBIDesktopSetup_x64.exe*      jenkins/                                   xampp-windows-x64-8.0.30-0-VS16-installer.exe*
+'DevOps softwares'/                       'System Volume Information'/   mongodb-windows-x86_64-7.0.8-signed.msi
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d
+$ cd mujju
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju
+$ git init
+Initialized empty Git repository in D:/Mujju/.git/
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju (master)
+$ git clone ^[[200~https://github.com/mujjumujaheed/MUJJU-KRISH.git~
+Cloning into 'MUJJU-KRISH.git~'...
+fatal: protocol '?[200~https' is not supported
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju (master)
+$ ls
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju (master)
+$ cd mujju-krish
+bash: cd: mujju-krish: No such file or directory
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju (master)
+$ cd mujju\krish
+bash: cd: mujjukrish: No such file or directory
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju (master)
+$ cd MUJJU-KRISH
+bash: cd: MUJJU-KRISH: No such file or directory
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju (master)
+$ cd MUJJU\KRISH
+bash: cd: MUJJUKRISH: No such file or directory
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju (master)
+$ git clone https://github.com/mujjumujaheed/3VC24CS086-047.git
+Cloning into '3VC24CS086-047'...
+warning: You appear to have cloned an empty repository.
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju (master)
+$ ls
+3VC24CS086-047/
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju (master)
+$ cd 3vc24cs086-047
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git init
+Reinitialized existing Git repository in D:/Mujju/3VC24CS086-047/.git/
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git config--global user.name "mujaheed"
+git: 'config--global' is not a git command. See 'git --help'.
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git config--global user.name
+git: 'config--global' is not a git command. See 'git --help'.
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git config --global user.email "mujaheed88841@gmail.com"
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git config --global user.email
+mujaheed88841@gmail.com
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ touch hi.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ touch hello.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.txt
+        hi.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git add hello.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hi.txt
+
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git add hi.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.txt
+        new file:   hi.txt
+
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git commit -m "2 files added"
+[main (root-commit) ffbb15d] 2 files added
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.txt
+ create mode 100644 hi.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 218 bytes | 218.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mujjumujaheed/3VC24CS086-047.git
+ * [new branch]      main -> main
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/mujju/3vc24cs086-047 (main)
+$
